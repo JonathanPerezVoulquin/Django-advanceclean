@@ -21,3 +21,5 @@ class ListaDeClientes(models.Model):
 class agregar(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
+
+  
